@@ -29,9 +29,8 @@ publish-job:
     with:
       java-version: '17'
       distribution: 'temurin'
-      
-  - run: ant -noinput -buildfile build.xml
-  - uses: actions/upload-artifact@v3
+    - run: ant -noinput -buildfile build.xml
+    - uses: actions/upload-artifact@v3
     with:
       name: Package
       path: build/jar
