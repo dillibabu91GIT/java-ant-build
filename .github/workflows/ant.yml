@@ -1,4 +1,4 @@
-name: Java Maven Build & Publish Artifact
+name: Java ant Build & Publish Artifact
 
 on:
   push:
