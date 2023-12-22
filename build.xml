@@ -6,8 +6,7 @@
 	<property name="lib.dir" location="lib" />
 
 	<path id="classpath">
-		<fileset dir="${java-ant-build/lib
-}" includes="**/*.jar" />
+		<fileset dir="${build.xml}" includes="**/*.jar" />
 	</path>
 
 	<target name="init">
