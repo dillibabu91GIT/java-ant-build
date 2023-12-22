@@ -6,7 +6,8 @@
 	<property name="lib.dir" location="lib" />
 
 	<path id="classpath">
-		<fileset dir="${lib.dir}" includes="**/*.jar" />
+		<fileset dir="${mkdir -p /home/runner/work/java-ant-build/java-ant-build/lib
+}" includes="**/*.jar" />
 	</path>
 
 	<target name="init">
