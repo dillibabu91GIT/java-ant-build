@@ -8,7 +8,7 @@
 
     <!-- Classpath -->
     <path id="classpath">
-        <fileset dir="${build.xml}" includes="**/*.jar" />
+        <fileset dir="${.github/workflows/build.xml}" includes="**/*.jar" />
     </path>
 
     <!-- Initialization target -->
