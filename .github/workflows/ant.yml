@@ -18,4 +18,3 @@ jobs:
           distribution: 'temurin'
       - name: Run the Ant jar target
         run: ant -noinput -f build.xml
-
